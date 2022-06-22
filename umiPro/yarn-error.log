@@ -1,0 +1,54 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\huang\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js i lint-staged -D
+
+PATH: 
+  C:\Python27\;C:\Python27\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files (x86)\Tencent\微信web开发者工具\dll;C:\Pro;ram Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\Users\huang\AppData\Local\Microsoft\WindowsApps;C:\Users\huang\AppData\Roaming\npm;C:\Users\huang\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\WebStorm 2021.3.3\bin;;C:\Users\huang\AppData\Local\Programs\Fiddler;G:\learning\reactProject\umipro\node_modules\.bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.14.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: G:\learning\reactProject\umipro\package.json: Unexpected token } in JSON at position 537
+      at JSON.parse (<anonymous>)
+      at C:\Users\huang\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\huang\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\huang\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "private": true,
+    "scripts": {
+      "dev": "max dev",
+      "build": "max build",
+      "postinstall": "max setup",
+      "start": "npm run dev"
+    },
+    "dependencies": {
+      "@ant-design/icons": "^4.7.0",
+      "@ant-design/pro-components": "^1.1.3",
+      "@umijs/max": "^4.0.0",
+      "antd": "^4.20.7"
+    },
+    "devDependencies": {
+      "@types/react": "^18.0.0",
+      "@types/react-dom": "^18.0.0",
+      "typescript": "^4.1.2",
+      "prettier": "^2",
+      "prettier-plugin-organize-imports": "^2",
+      "prettier-plugin-packagejson": "^2"
+    },
+    ""
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
