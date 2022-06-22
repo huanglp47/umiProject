@@ -6,7 +6,7 @@ export default defineConfig({
   model: {},
   initialState: {},
   layout: {
-    title: '上海方位角后台管理系统',
+    title: '后台管理系统',
   },
   request: {
     // dataField: "data",
